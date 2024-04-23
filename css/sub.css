@@ -1,0 +1,96 @@
+/* 전체 body의 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* div 요소의 스타일 */
+div {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* h2 스타일 */
+h2 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* h4 스타일 */
+h4 {
+    color: #555;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* a 링크 스타일 */
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* form 요소 스타일 */
+form {
+    margin-top: 10px;
+}
+
+/* 라디오 버튼 스타일 */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* p 요소 스타일 */
+p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* 스팬 요소 스타일 */
+span {
+    display: block;
+ 
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* 가운데 정렬 */
+.text-center {
+    text-align: center;
+}
+
+/* 최하단 링크 */
+.bottom-links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bottom-links a {
+    margin-right: 10px;
+}
+
+
+#country select{
+    width: 100%;
+    text-transform: uppercase;
+    display: block;
+    font-size: var(--text-size-button-small);
+    font-family: var(--text-family-secondary);
+    color: var(--text-color-light);
+    letter-spacing: var(--text-space-letter-spacing-all-caps);
+    margin: var(--space-margin-stacked-smaller);
+    line-height: var(--text-space-line-height-tighter);
+    font-weight: bold;
+    text-align: start;
+}
